@@ -1,0 +1,462 @@
+set1->_root.get()->getData()
+
+set1->_root.get()->_right.get()->getData()
+set1->_root.get()->_right.get()->getParent()->getData()
+
+set1->_root.get()->_right.get()->_right.get()->getData()
+set1->_root.get()->_right.get()->_right.get()->getParent()->getData()
+
+set1->_root.get()->_right.get()->_right.get()->_right.get()->getData()
+set1->_root.get()->_right.get()->_right.get()->_right.get()->getParent()->getData()
+
+set1->_root.get()->_right.get()->_right.get()->_right.get()->_right.get()->getData()
+set1->_root.get()->_right.get()->_right.get()->_right.get()->_right.get()->getParent()->getData()
+
+
+
+this->_root.get()->getData()
+
+this->_root.get()->_right.get()->getData()
+this->_root.get()->_right.get()->getParent()->getData()
+
+this->_root.get()->_right.get()->_right.get()->getData()
+this->_root.get()->_right.get()->_right.get()->getParent()->getData()
+
+this->_root.get()->_right.get()->_right.get()->_right.get()->getData()
+this->_root.get()->_right.get()->_right.get()->_right.get()->getParent()->getData()
+
+this->_root.get()->_right.get()->_right.get()->_right.get()->_right.get()->getData()
+this->_root.get()->_right.get()->_right.get()->_right.get()->_right.get()->getParent()->getData()
+
+
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/cmake-build-debug/ex3
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ex3 is a Catch v2.3.0 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+insert and erase
+  basic insertion and erasure
+-------------------------------------------------------------------------------
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:127
+...............................................................................
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:139: FAILED:
+  CHECK( stdIntSet.erase(4) == myIntSet.erase(4) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:140: FAILED:
+  CHECK( stdIntSet.empty() == myIntSet.empty() )
+with expansion:
+  true == false
+
+-------------------------------------------------------------------------------
+insert and erase
+  basic random insertion and erasure
+-------------------------------------------------------------------------------
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:143
+...............................................................................
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  0 == 1
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  0 == 1
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:156: FAILED:
+  CHECK( stdIntSet.erase(a) == myIntSet.erase(a) )
+with expansion:
+  1 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:159: FAILED:
+  CHECK( stdIntSet.size() == myIntSet.size() )
+with expansion:
+  0 == 58
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:160: FAILED:
+  CHECK( stdIntSet.empty() == myIntSet.empty() )
+with expansion:
+  true == false
+
+-------------------------------------------------------------------------------
+insert and erase
+  insertion from range
+-------------------------------------------------------------------------------
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:184
+...............................................................................
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:192: FAILED:
+  CHECK( stdIntSet.size() == myIntSet.size() )
+with expansion:
+  5 == 0
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:193: FAILED:
+  CHECK( stdIntSet.empty() == myIntSet.empty() )
+with expansion:
+  false == true
+
+/cs/usr/daniel.brown1/CLionProjects/ex3/my_set_tester.cpp:193: FAILED:
+  {Unknown expression after the reported line}
+due to a fatal error condition:
+  SIGSEGV - Segmentation violation signal
+
+===============================================================================
+test cases:    2 |   1 passed |  1 failed
+assertions: 1075 | 995 passed | 80 failed

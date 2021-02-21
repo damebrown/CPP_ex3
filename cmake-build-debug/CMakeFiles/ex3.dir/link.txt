@@ -1,0 +1,1 @@
+C:/cygwin64/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/ex3.dir/my_set_tester.cpp.o  -o ex3.exe -Wl,--out-implib,libex3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
